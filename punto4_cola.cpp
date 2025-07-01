@@ -1,3 +1,6 @@
+//Utilizando listas simples implemente:
+//b.  TDA Cola y sus operaciones fundamentales (incluya un contador de elementos para la cola).
+
 #include<iostream>
 using namespace std;
 
@@ -10,6 +13,7 @@ struct tnodo{
 struct Cola{
     pnodo frente;
     pnodo fin;
+    int cont;
 };
 
 
@@ -30,6 +34,7 @@ void crear_nodo(pnodo &nuevo){
 void initqueue(Cola &c){
     c.frente = NULL;
     c.fin = NULL;
+    c.cont=0;
 }
 
 bool isemptyqueue(Cola c){
@@ -40,6 +45,7 @@ bool isemptyqueue(Cola c){
 void pushqueue(Cola &c){
 	pnodo nuevo;
 	crear_nodo(nuevo);
+	c.cont++;
 	
 	if(isemptyqueue(c)){
 		c.frente=nuevo;
@@ -58,6 +64,7 @@ int popqueue(Cola &c){
         extraido=-999; //Valor arbitrario
     }
     else{
+		c.cont--;
 		extraido=c.frente->dato;
 		pnodo aux=c.frente;
 		c.frente=c.frente->siguiente;
@@ -110,6 +117,7 @@ void mostrar_cola(Cola c){
         cout<<i->dato<<endl;
         i=i->siguiente;
     }
+    cout<<"Nro. de elemento: "<<c.cont<<endl;
 }
 
 int main(){
@@ -143,4 +151,5 @@ int main(){
 		}
 	}while(op!=6);
 }
+
 
