@@ -1,3 +1,8 @@
+//De acuerdo a la definición de TDA lista simple, implemente el TDA y sus 
+//operaciones fundamentales considerando que la lista solo tiene un puntero con la 
+//dirección del primer nodo de la lista (HEAD). Luego, implemente la operación 
+//mínimo que permita extraer el menor valor almacenado en una lista desordenada. 
+
 #include<iostream>
 using namespace std;
 
