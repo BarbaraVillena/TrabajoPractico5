@@ -1,3 +1,9 @@
+//Implemente una lista con puntero al inicio y al final además de un contador que 
+//registre la cantidad de elementos actuales que hay en la lista. Realice las 
+//modificaciones necesarias a los métodos agregar y eliminar para que actualice el 
+//contador, además de agregar una función que retorne la cantidad de elementos 
+//actuales de la lista.
+
 #include<iostream>
 using namespace std;
 
