@@ -1,3 +1,5 @@
+// Analice los siguientes fragmentos de código, describa las acciones que realizan y determine sus propósitos. 
+
 void enigma(Nodo* nodo) 
     { 
         if(nodo!=nullptr)  //verifica si se trata de un puntero nulo
@@ -13,15 +15,15 @@ void enigma(Nodo* nodo)
 ///Esta funcion, se trata de una funcion recursiva, pues se llama así misma. 
 ///Su funcion es la de imprimir los elementos de una lista en orden inverso
 
-        __
+            __
 	if |_|| -> NULL
 		no hace nada 
    
-			  _
+	           _
 	Lista -> |3||->NULL
 		el nodo actual es el ultimo
 
-		  	  _      _     _	
+		  _      _     _	
 	Lista -> |3||-> |4||->|5||->NULL
 	5
 	
