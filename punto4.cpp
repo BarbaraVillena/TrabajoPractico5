@@ -1,3 +1,6 @@
+//Utilizando listas simples implemente: 
+//a.  TDA Pila y sus operaciones fundamentales. 
+
 #include<iostream>
 using namespace std;
 
