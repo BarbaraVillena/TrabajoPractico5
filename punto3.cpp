@@ -1,3 +1,11 @@
+// Utilizando la implementación de lista del punto 2. Realice las siguientes funciones 
+//a.  Función buscar_indice que busque un valor dentro de la lista y retorne un 
+//índice numérico (int) correspondiente a su posición lógica dentro de la lista, si 
+//el valor no se encuentra retorna -1. 
+//b.  Función buscar_por_indice que busque un valor dentro de la lista según su 
+//posición lógica, y si existe retorne un puntero con la dirección del elemento 
+//buscado, caso contrario la función debe devolver NULL. 
+
 #include<iostream>
 using namespace std;
 
