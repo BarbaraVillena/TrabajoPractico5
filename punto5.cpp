@@ -1,3 +1,14 @@
+//Dada una colección de valores enteros, se pretende ordenar dicha colección 
+//aplicando el algoritmo de ordenación por selección. En virtud de ello, se solicita: 
+//a.  Implemente mediante listas simplemente enlazadas la colección de valores enteros. 
+//b.  Desarrolle los procedimientos/funciones necesarios para implementar el algoritmo
+//de ordenación por selección para la estructura definida. 
+//c.  Implemente dos método que permitan combinar dos listas, donde, el resultado final
+//es una lista única con los elementos de ambas listas. 
+//Considerando que: 
+//i.  Para el primer método no importa el orden de los elementos de la lista. 
+//ii.  Para el segundo método si importa el orden de los elementos de la lista
+
 #include<iostream>
 using namespace std;
 
