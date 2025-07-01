@@ -1,3 +1,9 @@
+//Haciendo uso de listas genérica que realice: 
+//a.  Que la lista se cargue con números enteros y realice una función que busque 
+//números primos dentro de la lista y los cuente. Muestre el resultado de la cuenta. 
+//b.  Que la lista se cargue con caracteres y realice la cuenta de mayúsculas y 
+//minúsculas dentro de la lista. Muestre los resultados por pantalla. 
+
 #include<iostream>
 using namespace std;
 
