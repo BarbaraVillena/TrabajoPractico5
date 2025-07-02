@@ -1,3 +1,5 @@
+//Implemente una función/procedimiento que permita recorrer la lista y eliminar todos los nodos que contengan valores múltiplos de 3. Mostrar la lista actualizada. 
+
 #include<iostream>
 using namespace std;
 
