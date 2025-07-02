@@ -1,3 +1,5 @@
+//Utilizando el código de listas dobles con puntero inicio y fin. Complete las operaciones EliminarInicio y EliminarFinal.
+
 #include<iostream>
 using namespace std;
 
