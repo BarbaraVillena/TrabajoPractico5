@@ -1,3 +1,5 @@
+//Utilice la definición de lista del punto anterior para implementar un procedimiento/función que convierta un número en base decimal a base binaria.
+
 #include<iostream>
 using namespace std;
 
