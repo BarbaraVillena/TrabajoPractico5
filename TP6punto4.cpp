@@ -1,3 +1,5 @@
+//Implementar una función/procedimiento que permita recorrer la lista y mostrar el valor mayor y el menor almacenado. 
+
 #include<iostream>
 using namespace std;
 
